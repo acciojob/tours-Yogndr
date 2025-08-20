@@ -1,0 +1,17 @@
+[
+  {
+    "id": "rec6d6T3q5EBIdCfD",
+    "name": "Best of Paris in 7 Days Tour",
+    "info": "Paris is synonymous with the finest things that culture can offer: legendary cuisine, artistic masterpieces, and breathtaking architecture. Our tour will take you to the Eiffel Tower, the Louvre neighborhoods where you'll experience Paris like a local.",
+    "image": "https://dl.airtable.com/.attachments/1f80a9c8c7fd02374153aab54fc23f38/5f86e3b3/paris.jpg",
+    "price": "1,995"
+  },
+  {
+    "id": "recIwxrvU9HfJR3B4",
+    "name": "Best of Ireland in 14 Days Tour",
+    "info": "Experience the magic of the Emerald Isle in this comprehensive tour of Ireland. Visit Dublin, Galway, and the Cliffs of Moher while enjoying traditional Irish music, cuisine, and hospitality in cozy villages and historic castles.",
+    "image": "https://dl.airtable.com/.attachments/1f80a9c8c7fd02374153aab54fc23f38/5f86e3b3/ireland.jpeg",
+    "price": "3,895"
+  }
+]
+

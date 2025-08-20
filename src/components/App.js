@@ -1,27 +1,28 @@
 import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import Tour from "./Tour";
+import "regenerator-runtime/runtime";
+import data from "./data.json"
+
 
 const App = () => {
   const[loading,setLoading]=useState(true);
   const[tours,setTours]=useState([]);
-
-  if(loading){
-    return <Loading/>
-  }
 
   
 
   const fetchtours=async()=>{
     setLoading(true)
     try{
-      const response=await fetch("https://course-api.com/react-tours-project")
-      const data= await response.json();
+      console.log(data)
       setTours(data)
       setLoading(false)
     }
     catch(error){
       console.log(error)
+      setLoading(false)
+    }
+    finally{
       setLoading(false)
     }
      
@@ -39,10 +40,10 @@ const App = () => {
 
   if(tours.length===0){
     return(
-        <div>
+        <main>
           <p>No tours left</p>
           <button onClick={fetchtours}>Refresh</button>
-        </div>
+        </main>
     )
   }
 
